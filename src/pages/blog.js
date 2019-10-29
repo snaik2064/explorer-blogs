@@ -1,7 +1,8 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 const blog = () => {
-  return <div>blog here</div>
+  return <Layout>blog here</Layout>
 }
 
 export default blog
