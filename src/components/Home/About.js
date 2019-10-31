@@ -16,18 +16,18 @@ const About = () => {
         </article>
         <article className={styels.aboutInfo}>
           <h4>explore the difference</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est quo
+            laudantium doloremque?
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est quo
+            laudantium doloremque?
+          </p>
+          <button type="button" className="btn-primary">
+            read more
+          </button>
         </article>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est quo
-          laudantium doloremque?
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est quo
-          laudantium doloremque?
-        </p>
-        <button type="button" className="btn-primary">
-          read more
-        </button>
       </div>
     </section>
   );
