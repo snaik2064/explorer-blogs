@@ -1,5 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
+
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
 
 import Layout from '../components/Layout';
 import Banner from '../components/Banner';
@@ -15,9 +16,9 @@ export default ({ data }) => (
         title="continue expoloring"
         info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, repellendus?"
       >
-        <Link to="/tours" className="btn-white">
+        <AniLink to="/tours" className="btn-white">
           Explore tours
-        </Link>
+        </AniLink>
       </Banner>
     </StyledHero>
     <About />
