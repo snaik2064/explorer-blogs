@@ -8,10 +8,9 @@ module.exports = {
     description:
       'Expolre worldwide tours & discver what makes each of them unique.Forget your daily routine & say yes to adventure',
     author: '@johndoe',
-    data: {
-      name: 'john',
-      age: 24,
-    },
+    twitterUsername: '@john_smilga',
+    image: '/defaultBcg.jpeg',
+    siteUrl: 'https://explorer-blogs.netlify.com',
   },
   plugins: [
     {
@@ -34,5 +33,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-playground`,
+    `gatsby-plugin-react-helmet`,
   ],
 };
