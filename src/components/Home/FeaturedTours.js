@@ -10,7 +10,7 @@ import Tour from '../Tours/Tour';
 
 const getTours = graphql`
   query {
-    featuredTours: allContentfulTours(filter: { featured: { eq: true } }) {
+    featuredTours: allContentfulTour(filter: { featured: { eq: true } }) {
       edges {
         node {
           name

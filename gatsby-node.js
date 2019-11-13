@@ -5,7 +5,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const { data } = await graphql(`
     query {
-      tours: allContentfulTours {
+      tours: allContentfulTour {
         edges {
           node {
             slug

@@ -6,7 +6,7 @@ import TourList from './TousList';
 
 const getTours = graphql`
   query {
-    tours: allContentfulTours {
+    tours: allContentfulTour {
       edges {
         node {
           name

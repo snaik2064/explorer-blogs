@@ -1,11 +1,10 @@
 import React from 'react';
-
 import Image from 'gatsby-image';
-import AniLink from 'gatsby-plugin-transition-link/AniLink';
-import { FaMap } from 'react-icons/fa';
-import PropTypes from 'prop-types';
-
 import styles from '../../css/tour.module.css';
+import { FaMap } from 'react-icons/fa';
+import AniLink from 'gatsby-plugin-transition-link/AniLink';
+
+import PropTypes from 'prop-types';
 
 const Tour = ({ tour }) => {
   const { name, price, country, days, slug, images } = tour;
@@ -28,7 +27,7 @@ const Tour = ({ tour }) => {
             {country || 'default country'}
           </h4>
           <div className={styles.details}>
-            <h6>{days}</h6>
+            <h6>{days} days</h6>
             <h6>from ${price}</h6>
           </div>
         </div>
